@@ -4,7 +4,7 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-colo Distinguished
+colo vividchalk
 
 set number
 set expandtab
