@@ -16,3 +16,7 @@ set showcmd
 
 " Give a shortcut key to NERD Tree
 map <F2> :NERDTreeToggle<CR>
+
+" Format status line
+set laststatus=2
+set statusline=%t[%{strlen(&fenc)?&fenc:'none'},%{&ff}]%h%m%r%y%=%c,%l/%L\ %P
